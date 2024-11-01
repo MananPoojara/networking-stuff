@@ -424,110 +424,9 @@ took 11.0s …
     tcp6       0      0 2409:40c1:2e:816::34580 2405:200:1609:1731::443 ESTABLISHED
     tcp6      76      0 2409:40c1:2e:816::49996 2a04:4e42:24::347:443   CLOSE_WAIT 
     tcp6       0      0 2409:40c1:2e:816::56362 2a03:2880:f288:cc:f:443 ESTABLISHED
-    
-    ~ …
-    #### ➜ 
-    
-    ~ …
-    ### ➜ sudo nano /etc/hosts
-    
-    ~ took 2m 53.2s …
-    ### ➜ sudo nano /etc/hosts
-    
-    ~ took 17.2s …
-    ### ➜ curl gl
-    ^C      
-    
-    ~ took 1m 48.1s …
-    ### ➜ 
-    
-    ~ …
-    ### ➜ Í
-    zsh: command not found: Í
-    
-    ~ …
-    ### ➜  
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    ~ …
-    ### ➜ sudo nano /etc/hosts
-    
-    ~ took 9.6s …
-    ### ➜ curl go.com
-         ^X^H^C
-    
-    ~ took 25.1s …
-    ### ➜ 
-    
-    ~ …
-    ### ➜ 
-    
-    ~ …
-    ### ➜ 
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    ~ …
-    ### ➜ sudo nano /etc/hosts
-    
-    ~ took 3.6s …
-    ### ➜ sudo service hostname restart 
-    Failed to restart hostname.service: Unit hostname.service not found.
-    
-    ~ …
-    ### ➜ sudo hostnamectl set-hostname Butcher
-    
-    ~ …
-    ### ➜ sudo nano /etc/hosts                 
-    
-    ~ took 7.2s …
-    ### ➜ sudo service hostname restart        
-    Failed to restart hostname.service: Unit hostname.service not found.
-    
-    ~ …
-    ### ➜ hostname                             
-    Butcher
-    
-    ~ …
-    ### ➜ sudo nano /etc/hosts          
-    
-    ~ took 10.3s …
-    ### ➜ sudo service hostname restart 
-    Failed to restart hostname.service: Unit hostname.service not found.
-    
-    ~ …
-    ### ➜ sudo nano /etc/hosts          
-    
-    ~ took 52.0s …
-    ### ➜ hostname
-    Butcher
-    
-    ~ …
-    ### ➜                               
-    
-    ~ …
-    ### ➜ ll
+
+~ …
+### ➜ ll
     total 386M
     drwx------ 57 manan manan 4.0K Oct 28 20:31  Backup
     -rw-rw-r--  1 manan manan 1.2K Apr 30  2024  descriptor.xml
@@ -552,40 +451,8 @@ took 11.0s …
     -rw-rw-r--  1 manan manan 193M May 24 19:26  VMware-Workstation-17.5.2-23775571.x86_64.bundle.tar
     -rw-rw-r--  1 manan manan 477K Oct 31 21:33  workstation-17.5.1.tar.gz
     
-    ~ …
-    ### ➜ 
-    
-    ~ …
-    ### ➜ 
-    
-    ~ …
-    ### ➜ ll
-    total 386M
-    drwx------ 57 manan manan 4.0K Oct 28 20:31  Backup
-    -rw-rw-r--  1 manan manan 1.2K Apr 30  2024  descriptor.xml
-    drwxr-xr-x  8 manan manan 4.0K Oct 28 18:51  Desktop
-    drwxr-xr-x  3 manan manan 4.0K Oct 29 14:59  Documents
-    drwxr-xr-x  6 manan manan 4.0K Nov  1 12:00  Downloads
-    drwxrwxr-x  2 manan manan 4.0K Oct 28 19:04  dwrcx-hawyh
-    -rw-rw-r--  1 manan manan   23 Oct 26 13:57  file1.txt
-    -rw-rw-r--  1 manan manan   25 Oct 26 13:57  file2.txt
-    -rw-rw-r--  1 manan manan    0 Oct 26 14:03  mergerd.txt
-    drwxr-xr-x  2 manan manan 4.0K Oct 20 00:50  Music
-    drwxr-xr-x  4 manan manan 4.0K Oct 25 09:45  Pictures
-    lrwxrwxrwx  1 manan manan   37 Oct 20 21:02 "PlayOnLinux's virtual drives" -> /home/manan/.PlayOnLinux//wineprefix/
-    drwxr-xr-x  2 manan manan 4.0K Oct 20 00:50  Public
-    drwx------  5 manan manan 4.0K Oct 20 00:53  snap
-    drwxrwxr-x  3 manan manan 4.0K Oct 28 18:56  Sync
-    drwxr-xr-x  2 manan manan 4.0K Oct 20 00:50  Templates
-    drwxr-xr-x  2 manan manan 4.0K Oct 20 00:50  Videos
-    drwxrwxr-x  3 manan manan 4.0K Nov  1 11:19  vmware
-    drwxrwxr-x  4 manan manan 4.0K Oct 31 21:33  vmware-host-modules-workstation-17.5.1
-    -rwxrwxr-x  1 manan manan 193M Apr 30  2024  VMware-Workstation-17.5.2-23775571.x86_64.bundle
-    -rw-rw-r--  1 manan manan 193M May 24 19:26  VMware-Workstation-17.5.2-23775571.x86_64.bundle.tar
-    -rw-rw-r--  1 manan manan 477K Oct 31 21:33  workstation-17.5.1.tar.gz
-    
-    ~ …
-    ### ➜ sudo apt install traceroute
+~ …
+### ➜ sudo apt install traceroute
     Reading package lists... Done
     Building dependency tree... Done
     Reading state information... Done
@@ -620,8 +487,8 @@ took 11.0s …
     ~ took 5.1s …
     ### ➜ 
     
-    ~ took 5.1s …
-    ### ➜ traceroute google.com      
+~ took 5.1s …
+### ➜ traceroute google.com      
     traceroute to google.com (142.250.183.78), 30 hops max, 60 byte packets
      1  _gateway (192.168.231.19)  3.090 ms  4.898 ms  4.997 ms
      2  * * *
@@ -654,16 +521,8 @@ took 11.0s …
     29  * * *
     30  * * *
     
-    ~ took 30.1s …
-    ### ➜ traceroute pointybracket.net
-    pointybracket.net: Name or service not known
-    Cannot handle "host" cmdline arg `pointybracket.net' on position 1 (argc 1)
-    
-    ~ …
-    ### ➜ 
-    
-    ~ …
-    ### ➜ nmap        
+~ …
+### ➜ nmap        
     Nmap 7.80 ( https://nmap.org )
     Usage: nmap [Scan Type(s)] [Options] {target specification}
     TARGET SPECIFICATION:
@@ -779,8 +638,8 @@ took 11.0s …
       nmap -v -iR 10000 -Pn -p 80
     SEE THE MAN PAGE (https://nmap.org/book/man.html) FOR MORE OPTIONS AND EXAMPLES
     
-    ~ …
-    ### ➜ ifconfig
+~ …
+### ➜ ifconfig
     eno1: flags=4099<UP,BROADCAST,MULTICAST>  mtu 1500
             ether 84:69:93:4a:4a:ba  txqueuelen 1000  (Ethernet)
             RX packets 0  bytes 0 (0.0 B)
@@ -827,8 +686,8 @@ took 11.0s …
             TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
     
     
-    ~ …
-    ### ➜ nmap 192.168.231.112
+~ …
+### ➜ nmap 192.168.231.112
     Starting Nmap 7.80 ( https://nmap.org ) at 2024-11-01 12:29 IST
     Nmap scan report for Butcher (192.168.231.112)
     Host is up (0.000094s latency).
@@ -838,13 +697,13 @@ took 11.0s …
     
     Nmap done: 1 IP address (1 host up) scanned in 0.09 seconds
     
-    ~ …
-    ### ➜ nmap -Ss 192.168.231.112
+~ …
+### ➜ nmap -Ss 192.168.231.112
     Failed to resolve/decode supposed IPv4 source address "s": Temporary failure in name resolution
     QUITTING!
     
-    ~ …
-    ### ➜ nmap -S 192.168.231.112 
+~ …
+### ➜ nmap -S 192.168.231.112 
     WARNING: If -S is being used to fake your source address, you may also have to use -e <interface> and -Pn .  If you are using it to specify your real source address, you can ignore this warning.
     WARNING: -S will only affect the source address used in a connect() scan if you specify one of your own addresses.  Use -sS or another raw scan if you want to completely spoof your source address, but then you need to know what you're doing to obtain meaningful results.
     Starting Nmap 7.80 ( https://nmap.org ) at 2024-11-01 12:29 IST
@@ -853,8 +712,8 @@ took 11.0s …
     WARNING: No targets were specified, so 0 hosts scanned.
     Nmap done: 0 IP addresses (0 hosts up) scanned in 0.02 seconds
     
-    ~ …
-    ### ➜ nmap                    
+~ …
+### ➜ nmap                    
     Nmap 7.80 ( https://nmap.org )
     Usage: nmap [Scan Type(s)] [Options] {target specification}
     TARGET SPECIFICATION:
@@ -970,8 +829,8 @@ took 11.0s …
       nmap -v -iR 10000 -Pn -p 80
     SEE THE MAN PAGE (https://nmap.org/book/man.html) FOR MORE OPTIONS AND EXAMPLES
     
-    ~ …
-    ### ➜ nmap -v 192.168.231.112
+~ …
+### ➜ nmap -v 192.168.231.112
     Starting Nmap 7.80 ( https://nmap.org ) at 2024-11-01 12:30 IST
     Initiating Ping Scan at 12:30
     Scanning 192.168.231.112 [2 ports]
@@ -991,8 +850,8 @@ took 11.0s …
     Read data files from: /usr/bin/../share/nmap
     Nmap done: 1 IP address (1 host up) scanned in 0.05 seconds
     
-    ~ …
-    ### ➜ nmap 192.168.231.112, 192.168.231.19
+~ …
+### ➜ nmap 192.168.231.112, 192.168.231.19
     Starting Nmap 7.80 ( https://nmap.org ) at 2024-11-01 12:31 IST
     Failed to resolve "192.168.231.112,".
     Nmap scan report for _gateway (192.168.231.19)
@@ -1003,8 +862,8 @@ took 11.0s …
     
     Nmap done: 1 IP address (1 host up) scanned in 0.24 seconds
     
-    ~ …
-    ### ➜ nmap 192.168.231.112,19             
+~ …
+### ➜ nmap 192.168.231.112,19             
     Starting Nmap 7.80 ( https://nmap.org ) at 2024-11-01 12:31 IST
     Nmap scan report for _gateway (192.168.231.19)
     Host is up (0.0085s latency).
@@ -1020,8 +879,8 @@ took 11.0s …
     
     Nmap done: 2 IP addresses (2 hosts up) scanned in 0.15 seconds
     
-    ~ …
-    ### ➜ nmap 192.168.231.1-50  
+~ …
+### ➜ nmap 192.168.231.1-50  
     Starting Nmap 7.80 ( https://nmap.org ) at 2024-11-01 12:32 IST
     Nmap scan report for _gateway (192.168.231.19)
     Host is up (0.010s latency).
@@ -1031,7 +890,7 @@ took 11.0s …
     
     Nmap done: 50 IP addresses (1 host up) scanned in 2.66 seconds
     
-    ~ took 2.7s …
-    ### ➜ 
+~ took 2.7s …
+### ➜ 
     
     
